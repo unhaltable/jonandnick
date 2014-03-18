@@ -24,12 +24,14 @@ body, html {
 #countdown > div {
   color: #ccc;
   display: inline-block;
-  margin: 0 4px;
+  margin: 10px 4px;
 }
 
 #countdown > div > div {
   background: #fff;
   color: #444;
-  font-size: 3em;
+  height: 0.5em;
+  width: 2em;
+  font-size: 2.5em;
   padding: 1em;
 }

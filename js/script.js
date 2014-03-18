@@ -10,6 +10,7 @@ $(document).ready(function(){
   var $hours = document.getElementById("h");
   var $minutes = document.getElementById("m");
   var $seconds = document.getElementById("s");
+  var $ms = document.getElementById("ms");
 
   // Calculate the countdown clock and set the HTML.
   function update() {
@@ -27,16 +28,19 @@ $(document).ready(function(){
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
 
+    ms = parseInt((target_date - current_date) % 1000);
+
     // Format the number strings and put them in the elements.
     $days.innerHTML = pad(days, 2);
     $hours.innerHTML = pad(hours, 2);
     $minutes.innerHTML = pad(minutes, 2);
     $seconds.innerHTML = pad(seconds, 2);
+    $ms.innerHTML = pad(ms, 2);
   }
 
   update();
   // Update our number elements every 1 second
-  setInterval(update, 1000); // 1000 milliseconds = 1 second
+  setInterval(update, 1); // 1000 milliseconds = 1 second
 
   // This looks much better with leading zeros, don't you agree?
   // If num has less than size digits, add enough 0s to the front.
