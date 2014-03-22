@@ -2,21 +2,31 @@
 @import url(http://fonts.googleapis.com/css?family=Ovo);
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,400italic);
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body, html {
   background: #292929;
   color: #333;
   font: 1em/1.5em Lato, Helvetica, Arial, sans-serif;
   height: 100%;
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 
+body {
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 #countdown {
-  display: block;
-  position: absolute;
-  top: 50%;
-  margin-top: -2.5em;
   text-align: center;
   width: 100%;
 }
