@@ -86,40 +86,40 @@ header {
   }
 
   #coverleft {
-    background-image: url(../img/cover_jon_2000.png);
+    background-image: url(../img/cover_jon_2000.jpg);
   }
 
   #coverright {
-      background-image: url(../img/cover_nick_2000.png);
+      background-image: url(../img/cover_nick_2000.jpg);
   }
 
   @media only screen and (max-width: 1500px) {
     #coverleft {
-      background-image: url(../img/cover_jon_1500.png);
+      background-image: url(../img/cover_jon_1500.jpg);
     }
 
     #coverright {
-      background-image: url(../img/cover_nick_1500.png);
+      background-image: url(../img/cover_nick_1500.jpg);
     }
   }
 
   @media only screen and (max-width: 1000px) {
     #coverleft {
-      background-image: url(../img/cover_jon_1000.png);
+      background-image: url(../img/cover_jon_1000.jpg);
     }
 
     #coverright {
-      background-image: url(../img/cover_nick_1000.png);
+      background-image: url(../img/cover_nick_1000.jpg);
     }
   }
 
   @media only screen and (max-width: 500px) {
     #coverleft {
-      background-image: url(../img/cover_jon_500.png);
+      background-image: url(../img/cover_jon_500.jpg);
     }
 
     #coverright {
-      background-image: url(../img/cover_nick_500.png);
+      background-image: url(../img/cover_nick_500.jpg);
     }
   }
 
