@@ -1,0 +1,55 @@
+
+@import url(http://fonts.googleapis.com/css?family=Arvo:400italic);
+
+body, html {
+  background: #292929;
+  color: #333;
+  font: italic 1em/1.5em Arvo, Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+::selection {
+  background: #a4a4a4;
+}
+
+#map {
+  font-style: normal;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.gm-style img {
+  background: none !important;
+  max-width: none !important;
+}
+
+.gm-style-iw {
+  color: #000;
+  display: block;
+  height: auto !important;
+  line-height: 18px;
+  overflow: hidden !important;
+  white-space: nowrap;
+  width: 100% !important;
+}
+
+#gmap_canvas {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: -1.25em;
+  padding: 1em 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
