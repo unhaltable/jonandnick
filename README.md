@@ -1,4 +1,4 @@
 jonandnick
 =======
 
-Check it out live at: http://jonandnick.com/
+Check it out live at http://echeung.me/jonandnick
