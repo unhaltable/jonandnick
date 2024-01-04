@@ -1,4 +1,4 @@
 jonandnick
 =======
 
-Check it out live at http://echeung.me/jonandnick
+Check it out live at https://unhaltable.github.io/jonandnick/
